@@ -1,0 +1,48 @@
+---- HOW TO RUN ---
+
+1. Navigate to build Folder
+
+2. Run application named "s5226058_pathfindProjectExecutable.exe"
+
+
+---- RUN A* ALGORITHM ----
+
+1. Run application
+
+2. Copy and paste path of valid text file completely into the input field
+	- Example maze file format:
+		6 4 0 0 1 0 0 0 2 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 3 0
+	- Example path for input field:
+		C:\Users\Username\Documents\mazeFile.txt
+
+3. Select the A* option on left of the screen
+
+4. The maze will be solved and physically represented, and an accompanying compute time
+
+5. Select the menu to leave or ALT F4 to exit the application
+
+
+---- RUN AI MLAGENTS ----
+
+1. Run application
+
+2. Copy and paste path of valid text file completely into the input field
+	- Example maze file format:
+		6 4 0 0 1 0 0 0 2 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 3 0
+	- Example path for input field:
+		C:\Users\Username\Documents\mazeFile.txt
+
+3. Select the AI option on right of the screen
+
+4. Agents will spawn and the maze will be solved by them. Labels can be found bellow showing the average compute time, and the percentage of succsess for the agents reaching the goal
+
+5. Select the menu to leave or ALT F4 to exit the application
+
+
+---- KNOWN BUGS ----
+
+1. After running the AI, DO NOT go back to the menu and input a different/same path. Exit and reopen the program before undergoing further use.
+
+2. Maze generator may have difficulty opening files that have mazes with a size greater or equal to 20 x 20   
+
+3. If AI does not move/stops moving, it is unable to solve this particular maze
